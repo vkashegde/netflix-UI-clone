@@ -32,9 +32,10 @@ export class AppComponent implements OnInit, OnDestroy {
     autoplay: false,
   };
 
-  @ViewChild('stickyHeader') header: ElementRef;
+  @ViewChild('stickyHeader')
+  header!: ElementRef;
 
-  headerBGUrl: string;
+  headerBGUrl!: string;
 
   constructor(private movie: MovieService) {}
 
