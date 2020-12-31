@@ -1,3 +1,5 @@
+This project is created using a follow along videos on youtube.
+
 # NetflixClone
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.
